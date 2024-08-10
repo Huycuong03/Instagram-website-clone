@@ -1,0 +1,31 @@
+#login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#login-page img{
+    width: 50%;
+}
+
+#login-div{
+    width: 18%;
+    margin-left: 20px;
+    padding: 40px;
+    padding-bottom: 15px;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+}
+
+#login-div img{
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#login-page a{
+    color: darkblue;
+    vertical-align:baseline;
+}

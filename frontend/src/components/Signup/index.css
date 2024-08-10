@@ -1,0 +1,26 @@
+#signup-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#signup-page img {
+    width: 25%;
+}
+
+#signup-div{
+    width: 20%;
+    margin-left: 20px;
+    padding: 40px;
+    padding-bottom: 15px;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+}
+
+#signup-div img{
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5px;
+}

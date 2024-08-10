@@ -1,0 +1,66 @@
+#post-page{
+    margin-left: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#post{
+    display: flex;
+    justify-content: center;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto auto;
+}
+
+#post figure{
+    width: 400px;
+}
+
+#post figure img {
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px lightgray;
+}
+
+#post-detail{
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#post-detail img a, svg, i{
+    color: #1f1f1f;
+    vertical-align: middle;
+}
+
+#post-detail footer svg{
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#post-detail footer{
+    display: flex;
+    align-items: center;
+}
+
+#post-detail input{
+    border-width: solid 1px lightgray;
+    border-radius: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: start;
+    font-size: small;
+    font-weight: normal;
+    cursor:auto;
+}
+
+hr{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#comment-section{
+    margin-top: 20px;
+}

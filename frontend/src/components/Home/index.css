@@ -1,0 +1,44 @@
+#home-page{
+    margin-left:300px;
+}
+
+.post{
+    width: 500px;
+    margin: 20px auto;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.post header{
+    padding: 0 40px;
+    padding-top: 30px;
+}
+
+.post header img {
+    border: solid 1px lightgray;
+}
+
+.post header img, a, svg, i{
+    color: #1f1f1f;
+    vertical-align: middle;
+}
+
+.post figure img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px lightgray;
+}
+
+.post footer svg{
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post footer{
+    display: flex;
+    padding: 0 40px;
+    padding-bottom: 40px;
+}

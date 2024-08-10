@@ -1,0 +1,50 @@
+#search-page{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+
+#search-page-header{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    gap: 20px
+}
+
+#search-page svg{
+    cursor: pointer;
+}
+
+#search-page input{
+    border-radius: 50px;
+    margin-bottom: 0;
+}
+
+#search-result{
+    height: 100%;
+    margin: 0 50px;
+    margin-top: 50px;
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+    align-items: center;
+}
+
+.user-card figure img{
+    width: 150px;
+    height: 150px;
+    border: solid 1px lightgray;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.user-card header{
+    margin-bottom: 20px;
+}
+ 
+.user-card header a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}

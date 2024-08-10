@@ -1,0 +1,35 @@
+#app{
+    height: 100%;
+}
+
+#app ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%; 
+    position: fixed;
+    overflow: auto;
+    border-right: solid 1px lightgray;
+    padding: 30px;
+    padding-right: 50px;
+}
+
+#logo {
+    width: 120px;
+}
+
+#app ul li a {
+    font-size: large;
+    color: #1f1f1f;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#app ul li {
+    margin-bottom: 35px;
+}
+
+#app ul li img{
+    margin-right: 0;
+}
